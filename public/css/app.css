@@ -1,0 +1,71 @@
+body{
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.container{
+    padding-top: 15px;
+}
+
+.navbar-brand{
+    font-family: 'Raleway', sans-serif;
+    text-transform: uppercase;
+    font-size: 24px;
+    font-weight: 800;
+}
+
+.inner-addon {
+    position: relative;
+}
+
+/* style glyph */
+.inner-addon .glyphicon {
+    position: absolute;
+    top: 25%;
+    right: 2%;
+    pointer-events: none;
+}
+
+/* add padding  */
+.left-addon input  { padding-left:  30px; }
+.right-addon input { padding-right: 30px; }
+
+
+.gke-search{
+    margin-top: 60px;
+    height:84px;
+    margin-left: -15px;
+    margin-right: -8px;
+}
+
+.gke-search .form-control{
+    background-color: #ebebeb;
+    border: none;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    border-radius: 0px;
+    height: 54px;
+}
+
+.gke-nav.navbar-nav>li>a{
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+    color: #6cb7a6;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.gke-nav.navbar-nav>li>a:hover{
+    color: #6cb7a6;
+    border-bottom: 2px solid #6cb7a6;
+}
+
+.gke-nav.nav>li>a{
+    padding: 15px 0px 0px 0px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.navbar-default{
+    background-color: #f7f7f7;
+}

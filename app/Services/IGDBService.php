@@ -1,4 +1,4 @@
-<?php namespace GameKeyEngine;
+<?php namespace GameKeyEngine\Services;
 
 use App;
 
@@ -12,7 +12,7 @@ class IGDBService {
 		$this->endpoint = env('IGDB_endpoint');
 	}
 
-    private function getToken(){
+    public function getToken(){
     	return $this->key;
     }
 
